@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: rgb(70, 142, 236);
+  font: normal 15pt Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.apagar {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.a1b {
+  text-decoration: none;
+  color: inherit;
+}
+
+.liA {
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  background: #16b916;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px #010000;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.liA:hover {
+  color: red;
+}
+
+.p1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: medium;
+  width: 450px;
+  margin: 10px;
+}
