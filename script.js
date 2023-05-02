@@ -18,7 +18,7 @@ const ampliarImagem = () => {
   const divs = document.querySelectorAll(".a1");
   divs.forEach((div) => {
     const img = div.querySelector(".img1");
-    div.addEventListener("touchstart", (e) => {
+    div.addEventListener("touchmove", (e) => {
       const x = e.clientX - e.target.offsetCenter;
       const y = e.clientY - e.target.offsetCenter;
       img.style.transformOrigin = `${x}px ${y}px`;
