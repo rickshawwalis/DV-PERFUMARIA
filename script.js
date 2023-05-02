@@ -5,7 +5,7 @@
     link.addEventListener('click', function(event) {
       event.preventDefault();
       const product = this.getAttribute('data-product');
-      const message = `Olá, gostaria de comprar o produto ${product}.`;
+      const message = `Olá, gostaria de comprar o perfume ${product}.`;
       const encodedMessage = encodeURIComponent(message);
       const url = `https://wa.me/5587988440740?text=${encodedMessage}`;
       window.open(url, '_blank');
