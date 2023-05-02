@@ -26,6 +26,16 @@ img {
     margin: 15px 25px;
 }
 
+.b2 {
+    /*estrutura das letras*/
+    text-align: center;
+    width: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(13, 0, 0);
+    margin: -15px auto;
+}
+
 .a1 {
     /*div*/
     margin: 5px;
@@ -50,15 +60,6 @@ img {
 body {
     /*toda à página*/
     background: #1E1E1E;
-    font: normal 15pt Arial;
-}
-
-h1 {
-    /*titulo*/
-    margin: 10px;
-    text-align: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 li {

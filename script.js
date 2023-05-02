@@ -24,7 +24,7 @@ const ampliarImagem = () => {
       img.style.transformOrigin = `${x}px ${y}px`;
       img.style.transform = "scale(2)";
     });
-    div.addEventListener("touchend", () => {
+    div.addEventListener("click", () => {
       img.style.transformOrigin = "center center";
       img.style.transform = "scale(1)";
     });
