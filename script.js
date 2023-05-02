@@ -14,20 +14,20 @@ const enviarMensagem = () => {
 }
 enviarMensagem();
 
-const ampliarImagem = () => {
-  const divs = document.querySelectorAll(".a1");
-  divs.forEach((div) => {
-    const img = div.querySelector(".img1");
-    div.addEventListener("touchstart", (e) => {
-      const x = e.clientX - e.target.offsetCenter;
-      const y = e.clientY - e.target.offsetCenter;
-      img.style.transformOrigin = `${x}px ${y}px`;
-      img.style.transform = "scale(1.5)";
-    });
-    div.addEventListener("touchend", () => {
-      img.style.transformOrigin = "center center";
-      img.style.transform = "scale(1)";
-    });
-  });
-}
-ampliarImagem();
+// const ampliarImagem = () => { //amplia a imagem
+//   const divs = document.querySelectorAll(".a1");
+//   divs.forEach((div) => {
+//     const img = div.querySelector(".img1");
+//     div.addEventListener("touchstart", (e) => {
+//       const x = e.clientX - e.target.offsetCenter;
+//       const y = e.clientY - e.target.offsetCenter;
+//       img.style.transformOrigin = `${x}px ${y}px`;
+//       img.style.transform = "scale(1.5)";
+//     });
+//     div.addEventListener("touchend", () => {
+//       img.style.transformOrigin = "center center";
+//       img.style.transform = "scale(1)";
+//     });
+//   });
+// }
+// ampliarImagem();
