@@ -108,3 +108,8 @@ a:hover {
     /*muda a cor ao passar o mouse*/
     color: red;
 }
+
+.frete{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
