@@ -41,7 +41,8 @@
 }
 
 .aMneu:hover {
-    text-decoration:overline #B98949;
+    /*menu*/
+    text-decoration: overline #B98949;
     color: #B98949;
 }
 
@@ -63,18 +64,8 @@
     margin: 15px 25px;
 }
 
-.b2 {
-    /*estrutura das letras*/
-    text-align: center;
-    width: 280px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    color: rgb(13, 0, 0);
-    margin: -15px auto;
-}
-
 .a1 {
-    /*div*/
+    /*estrutura das caixas div*/
     margin: 5px;
     background-color: #FCF6D4;
     border: 1px solid;
@@ -83,24 +74,23 @@
     box-shadow: 1px 2px 4px 2px #B98949;
     display: flex;
     flex-direction: column;
-    justify-content: end;
 }
 
 .a3 {
-    /*ul*/
+    /*estrutura da ul*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-
 body {
     /*toda à página*/
     background: #1E1E1E;
+    width: 1500px;
 }
 
 .li1 {
-    /*todas li*/
+    /*todos os botões li "comprar"*/
     list-style: none;
     background-color: #B98949;
     display: flex;
