@@ -4,12 +4,49 @@
     padding: 0px;
 }
 
-.logo {
+.headerMenu {
+    /*menu*/
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1E1E1E;
 }
 
-img {
+.logo {
+    /*menu*/
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.navMenu .ulMenu {
+    /*menu*/
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navMenu .liMenu {
+    /*menu*/
+    margin-left: 30px;
+}
+
+.navMenu .aMneu {
+    /*menu*/
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aMneu:hover {
+    text-decoration:overline #B98949;
+    color: #B98949;
+}
+
+.img1 {
+    /*configura todas as imagens*/
     box-sizing: border-box;
     width: 310px;
     height: 340px;
@@ -62,7 +99,7 @@ body {
     background: #1E1E1E;
 }
 
-li {
+.li1 {
     /*todas li*/
     list-style: none;
     background-color: #B98949;
@@ -75,13 +112,15 @@ li {
     margin: 10px;
 }
 
-a {
+.btn-whatsapp {
     /*retira elementos do <a>, sublinhado e cor azul*/
     text-decoration: none;
     color: inherit;
 }
 
-a:hover {
-    /*muda a cor ao passar o mouse*/
-    color: rgb(170, 26, 26);
+
+
+.btn-whatsapp:hover {
+    /*muda a cor do botão ao passar o mouse*/
+    color: rgb(229, 255, 0);
 }
