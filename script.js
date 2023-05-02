@@ -22,7 +22,7 @@ const ampliarImagem = () => {
       const x = e.clientX - e.target.offsetCenter;
       const y = e.clientY - e.target.offsetCenter;
       img.style.transformOrigin = `${x}px ${y}px`;
-      img.style.transform = "scale(2)";
+      img.style.transform = "scale(1.5)";
     });
     div.addEventListener("touchend", () => {
       img.style.transformOrigin = "center center";
