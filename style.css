@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    width: 1000px;
     background-color: #1E1E1E;
 }
 
@@ -76,17 +77,18 @@
     flex-direction: column;
 }
 
-.a3 {
+.ulDivProdutos {
     /*estrutura da ul*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 1000px;
 }
 
 body {
     /*toda à página*/
     background: #1E1E1E;
-    width: 1500px;
+    margin: 0px 0px 0px 250px;
 }
 
 .li1 {
